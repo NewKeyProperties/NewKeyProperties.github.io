@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  
+  <!-- SEO basics -->
+  <title>NewKey.bg</title>
+  <meta name="description" content="NewKey.bg - вашето решение за ..."/>
+  <meta name="robots" content="index, follow"/>
+
+  <!-- Open Graph / Social sharing -->
+  <meta property="og:title" content="NewKey.bg"/>
+  <meta property="og:description" content="Посетете NewKey.bg"/>
+  <meta property="og:image" content="https://i.imgur.com/8735aca7570baf19340a8255bda79275c09c77e8.jpg"/>
+  <meta property="og:url" content="https://newkey.bg"/>
+  <meta property="og:type" content="website"/>
+
+  <!-- Автоматично пренасочване -->
+  <meta http-equiv="refresh" content="4;url=https://newkey.bg">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0f0f1a;
+      color: #e0e0ff;
+      font-family: system-ui, sans-serif;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    img {
+      max-width: 90vw;
+      max-height: 70vh;
+      object-fit: contain;
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.7);
+      margin-bottom: 2rem;
+    }
+    a {
+      color: #00d4ff;
+      text-decoration: none;
+      font-size: 1.3rem;
+      padding: 12px 28px;
+      border: 2px solid #00d4ff;
+      border-radius: 50px;
+      transition: 0.25s;
+    }
+    a:hover {
+      background: #00d4ff;
+      color: #000;
+    }
+    .small {
+      margin-top: 1.5rem;
+      font-size: 0.95rem;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="https://i.imgur.com/8735aca7570baf19340a8255bda79275c09c77e8.jpg" 
+       alt="NewKey.bg preview">
+
+  <p>Пренасочване към <strong>newkey.bg</strong> след 4 секунди...</p>
+
+  <a href="https://newkey.bg">Отиди на сайта веднага</a>
+
+  <div class="small">
+    или изчакай автоматичното пренасочване
+  </div>
+
+</body>
+</html>
